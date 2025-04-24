@@ -29,7 +29,7 @@ class Estudiante {
 
     }
 }
-
+/*
 const estudiante = db.define('estudiante', {
 
     id: {
@@ -63,6 +63,6 @@ const estudiante = db.define('estudiante', {
     tablename: 'Estudiante',
     timestamps: false
 })
-
-module.exports = estudiante;
+*/
+module.exports = Estudiante;
 

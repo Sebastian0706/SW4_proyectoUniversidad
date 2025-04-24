@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Cursos
+    </title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <h3>Lista de cursos</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <% cursos.forEach(curso=> {%>
+                    <tr>
+                        <td><%curso.%></td>
+                        <td><%curso.%></td>
+                        <td><%curso.%></td>
+                    </tr>
+                    <%}) %>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
